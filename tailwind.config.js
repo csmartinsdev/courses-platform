@@ -8,9 +8,10 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-				blur: 'url(/public/bg-blur.png)',
+				// 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				// 'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+				
+				blur: 'radial-gradient(circle, rgba(107,33,168,1) 0%, rgba(0,0,0,0.7707457983193278) 100%)',
 			},
 			fontFamily: {
 				sans: 'Roboto, sans-serif',
