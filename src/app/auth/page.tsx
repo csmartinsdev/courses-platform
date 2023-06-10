@@ -2,7 +2,7 @@ import { Logo } from "../components/Logo";
 
 export default function Auth() {
     return (
-        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+        <div className="min-h-screen before:bg-gradient-radial bg-cover bg-no-repeat flex flex-col items-center">
             <div className=".w-full.max-w-[1100px].flex.items-center.justify-content-between mt-20 mx-auto">
                 <div className="max-w-[640px]">
                     <Logo />
@@ -20,8 +20,9 @@ export default function Auth() {
                         placeholder="Password"
                         type="password" />
 
-                    <button className="mt-3 h-12 bg-purple-800 uppercase rounded font-bold text-sm hover:bg-purple-950"
-                     >Entrar</button>
+                    <button className="mt-3 h-12 bg-purple-800 uppercase rounded font-bold text-sm hover:bg-purple-950">
+                        Entrar
+                    </button>
                 </form>
             </div>
         </div>
