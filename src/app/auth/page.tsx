@@ -24,7 +24,7 @@ export default function Auth() {
                     <form className="flex flex-col gap-2">
                         <input className="bg-gray-900 rounded px-5 h-14 active:border-purple-950" 
                             placeholder="E-mail"
-                            type="text" />
+                            type="email" />
                         
                         <input className="bg-gray-900 rounded px-5 h-14"
                             placeholder="Password"
